@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import <AVFoundation/AVFoundation.h>
+#import "PECropRectView.h"
 
 @interface PECropView : UIView
 
@@ -23,6 +24,7 @@
 
 @property (nonatomic) CGRect cropRect;
 @property (nonatomic) CGRect imageCropRect;
+@property (nonatomic) PECropRectView *cropRectView;
 
 @property (nonatomic) CGFloat rotationAngle;
 
