@@ -21,7 +21,6 @@ static const CGFloat MarginRight = MarginLeft;
 @property (nonatomic) UIView *zoomingView;
 @property (nonatomic) UIImageView *imageView;
 
-@property (nonatomic) PECropRectView *cropRectView;
 @property (nonatomic) UIView *topOverlayView;
 @property (nonatomic) UIView *leftOverlayView;
 @property (nonatomic) UIView *rightOverlayView;
